@@ -1,4 +1,4 @@
-# gum
+# xgum
 
 gum is used to manage git account issues, get git email and name on your computer, generate a list, you can use gum to add email and name, and then switch to them
 
