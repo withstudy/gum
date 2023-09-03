@@ -1,5 +1,5 @@
 {
-  "name": "gum",
+  "name": "xgum",
   "version": "1.0.0",
   "description": "git user list maniger",
   "bin": "bin/index.js",
@@ -9,8 +9,12 @@
   "keywords": [
     "git"
   ],
-  "author": "xhb",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/withstudy/gum.git"
+  },
+  "author": "xuhb",
+  "license": "MIT",
   "devDependencies": {
     "jest": "^29.6.4"
   }
