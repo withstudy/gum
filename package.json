@@ -1,0 +1,12 @@
+{
+  "name": "gum",
+  "version": "1.0.0",
+  "description": "git user list maniger",
+  "bin": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["git"],
+  "author": "xhb",
+  "license": "ISC"
+}
