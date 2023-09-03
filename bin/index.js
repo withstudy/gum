@@ -3,8 +3,7 @@ const fs = require('fs')
 const path = require('path')
 const { execSync, exec } = require('child_process')
 let userlist = []
-const mode = 'dev'
-const argStartIndex = mode === 'dev' ? 2 : 1
+const argStartIndex = 2
 
 const operate = process.argv[argStartIndex]
 const log = console.log
