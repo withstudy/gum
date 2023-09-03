@@ -1,6 +1,6 @@
 {
   "name": "xgum",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "git user list maniger",
   "bin": "bin/index.js",
   "scripts": {

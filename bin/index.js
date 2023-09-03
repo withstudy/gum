@@ -80,7 +80,7 @@ if (isHaveGit()) {
                 ]
                 const user = userlist.find(item => item.email === email)
                 if (!user) {
-                    log('Error: user list not exist,you can use "gum list" look user list')
+                    log('Error: user list not exist,you can use "xgum list" look user list')
                     return
                 }
                 const oldemail = getGitConfigEmail(typeMap[type])
@@ -101,8 +101,8 @@ if (isHaveGit()) {
             }
             break
         case 'help':
-            log('gum help: ')
-            log('\t init: gum init ')
+            log('xgum help: ')
+            log('\t init: xgum init ')
             log('\t list: show git user list ')
             log('\t add <email> <name>: add new git user in list ')
             log('\t del <email>: delete git user in list ')
@@ -113,7 +113,7 @@ if (isHaveGit()) {
             log(`${name} version: ${version}`)
             break
         default:
-            log('gum unknown operate')
+            log('xgum unknown operate')
             break
     }
 } else {
