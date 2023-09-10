@@ -1,7 +1,7 @@
 const { exec } = require('child_process')
 
 test('gum init',() => {
-    exec('node bin/index.js version', (error, stdout, stderr) => {
+    exec('node bin/cli.js version', (error, stdout, stderr) => {
         if(error){
             return
         }

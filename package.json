@@ -1,8 +1,11 @@
 {
   "name": "xgum",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "git user list maniger",
-  "bin": "bin/index.js",
+  "bin": "bin/cli.js",
+  "files": [
+    "bin"
+  ],
   "scripts": {
     "test": "jest"
   },
@@ -17,5 +20,8 @@
   "license": "MIT",
   "devDependencies": {
     "jest": "^29.6.4"
+  },
+  "dependencies": {
+    "yargs": "^17.7.2"
   }
 }

@@ -1,29 +1,27 @@
-# xxgum
+# xgum
 
-xgum is used to manage git account issues, get git email and name on your computer, generate a list, you can use xgum to add email and name, and then switch to them
+xgum can manage your git email and name, and set an alias for it to quickly set up git
 
-## command
+## command and option
 
-* `xgum version`
+* `xgum -v, --version`
+Show you version.
   
-* `xgum help`
-
-* `xgum init`
-
-Get your git using email, name, and generate a list
+* `xgum  -h, --help  `
+Show you help info.
 
 * `xgum list`
 
-Check your email, name list
+Show you git email,name list.
 
-* `xgum add <email> <name>`
+* `xgum add -e <email> -n <name> -a <alias>`
 
-add new git email, name in list
+Add an item to the list.
 
-* `xgum del <email>`
+* `xgum del -a <alias>`
 
-delete git email, name in list
+Removes an item from the list.
 
-* `xgum use [-l, -g, -s] <email>`
+* `xgum use -t <type> -a <alias>`
 
-will git user set as this, -l is local, -g is global, -s is system, default -l 
+Apply an item to git, type can be global or system or local.
